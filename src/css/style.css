@@ -16,6 +16,7 @@ body {
   line-height: 1.17;
   font-weight: 400;
 }
+/* nav */
 .header {
   background-color: var(--colorTextPrimary);
 }
@@ -26,4 +27,56 @@ body {
 }
 .nav-link:hover {
   color: var(--colorButton);
+}
+/* hero */
+.hero-title {
+  font-size: 64px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.hero-title-part {
+  font-size: 64px;
+  font-weight: 700;
+}
+.hero-button {
+  font-family: var(--textSecond);
+  border: none;
+  background-color: var(--colorButton);
+  padding: 10px 32px;
+  line-height: 1.5;
+}
+.hero-button:hover {
+  color: var(--colorTExtContrast);
+  border: none;
+  background-color: var(--colorBGPrimary);
+  cursor: pointer;
+}
+/* about-us */
+.about {
+  background-color: var(--colorBGSection);
+}
+.about-title {
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+.about-text {
+  font-size: 32px;
+  line-height: 1.18;
+}
+.about-link {
+  font-size: inherit;
+  color: inherit;
+  text-decoration: none;
+  font-family: var(--textSecond);
+  border: none;
+  background-color: var(--colorButton);
+  padding: 10px 32px;
+  line-height: 1.5;
+}
+.about-link:hover {
+  color: var(--colorTExtContrast);
+  border: none;
+  background-color: var(--colorBGPrimary);
+  cursor: pointer;
 }
