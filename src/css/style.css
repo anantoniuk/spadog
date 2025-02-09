@@ -80,3 +80,9 @@ body {
   background-color: var(--colorBGPrimary);
   cursor: pointer;
 }
+/* advantages */
+.advantages-title {
+  font-size: 32px;
+  font-weight: 700;
+}
+/* footer */
