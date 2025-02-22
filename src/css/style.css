@@ -16,6 +16,12 @@ body {
   line-height: 1.17;
   font-weight: 400;
 }
+.container {
+  max-width: 1650px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 15px 0px 15px;
+}
 /* nav */
 .header {
   background-color: var(--colorTextPrimary);
