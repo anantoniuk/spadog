@@ -25,6 +25,7 @@ body {
 /* nav */
 .header {
   background-color: var(--colorTextPrimary);
+  padding: 30px 0px 30px 0px;
 }
 .nav-link {
   font-family: var(--textSecond);
@@ -34,6 +35,9 @@ body {
   color: var(--colorButton);
 }
 /* hero */
+.hero-content {
+  padding: 150px 0px 365px 0px;
+}
 .hero-title {
   font-size: 64px;
   text-transform: capitalize;
@@ -60,6 +64,9 @@ body {
 .about {
   background-color: var(--colorBGSection);
 }
+.about-content {
+  padding: 100px 0px 100px 0px;
+}
 .about-title {
   font-weight: 700;
   font-size: 40px;
@@ -85,6 +92,9 @@ body {
   cursor: pointer;
 }
 /* advantages */
+.advantages {
+  padding: 60px 0px 60px 0px;
+}
 .advantages-title {
   font-size: 32px;
   font-weight: 700;
@@ -92,6 +102,7 @@ body {
 /* services */
 .services {
   background-color: var(--colorBGSection);
+  padding: 60px 0px 60px 0px;
 }
 .services-title {
   text-align: center;
@@ -111,6 +122,7 @@ body {
   letter-spacing: 0.06em;
   border-radius: 5px;
   padding: 15px 80px;
+  display: inline-block;
 }
 .services-link:hover {
   color: var(--colorTExtContrast);
@@ -121,6 +133,7 @@ body {
 /* footer */
 .footer {
   background-color: var(--colorBGPrimary);
+  padding: 35px 0px 35px 0px;
 }
 .logo {
   font-size: 40px;
